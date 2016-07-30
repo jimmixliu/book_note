@@ -1,0 +1,1 @@
+cmd_/home/liupeng/work/code/github/book_note/ldd_cn_4_0/004/built-in.o :=  rm -f /home/liupeng/work/code/github/book_note/ldd_cn_4_0/004/built-in.o; ar rcsD /home/liupeng/work/code/github/book_note/ldd_cn_4_0/004/built-in.o
