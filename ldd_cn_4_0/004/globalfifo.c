@@ -1,5 +1,22 @@
 /*private data and container_of for multiple devices*/
 /*add the mutex lock*/
+/*add the wait_queue_head_t*/
+
+#if 0
+
+ #define __set_current_state(state_value)                        \
+         do {                                                    \
+                 current->task_state_change = _THIS_IP_;         \
+                 current->state = (state_value);                 \
+         } while (0)
+ #define set_current_state(state_value)                          \
+         do {                                                    \
+                 current->task_state_change = _THIS_IP_;         \
+                 set_mb(current->state, (state_value));          \
+         } while (0)
+ 
+#endif
+
 #include <linux/module.h>
 #include <linux/fs.h>
 #include <linux/init.h>
