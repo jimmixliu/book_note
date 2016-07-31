@@ -1,0 +1,1 @@
+cmd_/home/liupeng/work/code/github/book_note/ldd_cn_4_0/005/globalfifo.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/liupeng/work/code/github/book_note/ldd_cn_4_0/005/globalfifo.ko /home/liupeng/work/code/github/book_note/ldd_cn_4_0/005/globalfifo.o /home/liupeng/work/code/github/book_note/ldd_cn_4_0/005/globalfifo.mod.o
